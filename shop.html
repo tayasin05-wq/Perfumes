@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shop | Zavi Brand</title>
+
+    <link rel="stylesheet" href="shop.css">
+</head>
+
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <p>Welcome to Zavi Brand and enjoy</p>
+    </div>
+
+
+    <!-- Navbar -->
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            <img 
+                src="https://img.magnific.com/premium-vector/letter-m-perfume-logo-design-elegant-luxury-scent-initial-logo_680355-1109.jpg?semt=ais_hybrid&w=740&q=80"
+                alt="Zavi Brand"
+            >
+
+            <span>Zavi Brand</span>
+        </a>
+
+
+        <div class="nav-links">
+
+            <a href="index.html">Home</a>
+
+            <a href="shop.html" class="active">Shop</a>
+
+            <a href="about.html">About</a>
+
+            <a href="blog.html">Blog</a>
+
+            <a href="contact.html">Contact</a>
+
+            <a href="cart.html">🛒 </a>
+            
+
+        </div>
+
+
+        <div class="nav-icons">
+
+            <button>🔍</button>
+
+            <button>👤</button>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Page Heading -->
+
+    <section class="shop-header">
+
+        <h1>Shop Our Fragrances</h1>
+
+        <p>
+            Discover elegant and unforgettable scents
+            crafted especially for you.
+        </p>
+
+    </section>
+
+
+    <!-- Shop Area -->
+
+    <main class="shop-container">
+
+
+        <!-- Sidebar -->
+
+        <aside class="sidebar">
+
+            <h3>Categories</h3>
+
+            <label>
+                <input type="checkbox" value="all" checked>
+                All Fragrances
+            </label>
+
+            <label>
+                <input type="checkbox" value="women">
+                Women's Perfume
+            </label>
+
+            <label>
+                <input type="checkbox" value="men">
+                Men's Perfume
+            </label>
+
+            <label>
+                <input type="checkbox" value="unisex">
+                Unisex
+            </label>
+
+
+            <hr>
+
+
+            <h3>Price Range</h3>
+
+            <label>
+                <input type="radio" name="price" value="all" checked>
+                All Prices
+            </label>
+
+            <label>
+                <input type="radio" name="price" value="50">
+                Under $50
+            </label>
+
+            <label>
+                <input type="radio" name="price" value="100">
+                $50 - $100
+            </label>
+
+            <label>
+                <input type="radio" name="price" value="150">
+                Above $100
+            </label>
+
+        </aside>
+
+
+        <!-- Products -->
+
+        <section class="products-section">
+
+            <div class="shop-top">
+
+                <p>
+                    Showing <span id="productCount">8</span> Products
+                </p>
+
+                <select id="sortProducts">
+
+                    <option value="default">
+                        Sort By
+                    </option>
+
+                    <option value="low">
+                        Price: Low to High
+                    </option>
+
+                    <option value="high">
+                        Price: High to Low
+                    </option>
+
+                    <option value="name">
+                        Name: A-Z
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div 
+                class="products-grid"
+                id="productsGrid"
+            >
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+
+            <div class="footer-section">
+
+                <h2>Zavi Brand</h2>
+
+                <p>
+                    Discover elegant, timeless and unforgettable
+                    fragrances made for every special moment.
+                </p>
+
+            </div>
+
+
+            <div class="footer-section">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+
+            <div class="footer-section">
+
+                <h3>Contact Us</h3>
+
+                <p>📍 Lahore, Pakistan</p>
+                <p>📞 +92 300 1234567</p>
+                <p>✉️ zavibrand@gmail.com</p>
+
+            </div>
+
+
+            <div class="footer-section">
+
+                <h3>Follow Us</h3>
+
+                <div class="social-icons">
+
+                    <a href="#">📘</a>
+                    <a href="#">📸</a>
+                    <a href="#">🐦</a>
+                    <a href="#">▶️</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Zavi Brand. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="shop.js"></script>
+
+</body>
+</html>
